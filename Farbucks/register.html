@@ -1,0 +1,167 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="java.js">
+   
+</head>
+
+<header>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="back" onclick="hideMenu()">BACK</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="coffee.html">COFFEE</a></li>
+                    <li><a href="Events.html">EVENTS</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                </ul>
+            </div>
+            <i class="menu"onclick="showMenu()">MENU</i>
+        </nav>
+
+        <h1>Join Us!</h1>
+    </section>
+</header>
+
+
+<body>
+
+<body-1>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">Login Form</div>  
+            <div class="title login">Signup Form</div>  
+        </div>
+
+        <div class="form-konten">
+            <div class="sliding">
+
+            <input type="radio" name="slider" id="login" checked>
+
+            <input type="radio" name="slider" id="signup">
+
+            <label for="login" class="slide login">Login</label>
+
+            <label for="signup" class="slide signup">Sign Up</label>
+
+            <div class="tab-slide"></div>
+
+            </div>
+            <div class="form-inner">
+
+                <form action="#" class="login">
+
+                    
+                    <div class="field">
+                        <input type="username" id="username" name="username" placeholder="Username" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+    
+                    <div class="field">
+                        <input type="password" id="pass1" name="pass1" placeholder="Password" required>
+                    </div>
+    
+                    <div class="pass-link">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+    
+                    <div class="field">
+                        <input type="submit" value="Login" id="submit">
+                    </div>
+    
+                    <div class="signup-link">
+                        Not a member?
+                        <a href="#">Sign Up Now!</a>
+                    </div>
+                </form>
+                
+                <form action="#" class="signup">
+
+                    
+                    <div class="field">
+                        <input type="username" id="username" name="username" placeholder="Username" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+    
+                    <div class="field">
+                        <input type="password" id="pass1" name="pass1" placeholder="Password" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="password" id="pass2" name="pass2" placeholder="Confirm Password"required >
+                    </div>
+    
+    
+                    <div class="field">
+                        <input type="submit" value="Sign Up" id="submit">
+                    </div>
+    
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body-1>
+
+<footer>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Soluta amet necessitatibus incidunt perspiciatis nemo dolore repellendus, ducimus cum est facilis?
+        </p>
+        <br>
+        <a href="https://www.figma.com/file/mptqBrFNP0k7YSo1x4KIaM/Design-Project?node-id=0%3A1" class="link-btn">LINK FIGMA</a>
+        <br>
+        <div class="row-3">
+            <div class="medsos-col">
+                <a href="https://www.instagram.com/">
+                    <img src="img/IG.jpg">
+                </a>
+              
+            </div>
+
+            <div class="medsos-col">
+                <a href="https://www.facebook.com/">
+                    <img src="img/FB.png" alt="">
+                </a>
+               
+            </div>
+
+            <div class="medsos-col">
+                <a href="https://twitter.com/">
+                    <img src="img/twt.png" alt="">
+                </a>
+               
+            </div>
+            
+        </div>
+    </section>
+</footer>
+    <script>
+         var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                 navLinks.style.right = "0px";
+            }
+            function hideMenu(){
+                 navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+    <script src="./java.js"></script>
+</html>
